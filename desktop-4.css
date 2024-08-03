@@ -1,0 +1,160 @@
+.freshveg {
+  color: var(--color-forestgreen-200);
+}
+.welcome-to-freshveg-container {
+  position: absolute;
+  top: 63px;
+  left: calc(50% - 226px);
+  font-size: 40px;
+  font-weight: 600;
+  display: inline-block;
+  width: 452px;
+  height: 65px;
+}
+.desktop-4-child {
+  position: absolute;
+  height: 4.49%;
+  width: 3.26%;
+  top: 6.45%;
+  right: 3.96%;
+  bottom: 89.06%;
+  left: 92.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.categories {
+  position: absolute;
+  top: 348px;
+  left: 190px;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 187px;
+  height: 42px;
+}
+.group-child1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  width: 280px;
+  height: 170px;
+  object-fit: cover;
+}
+.vegetables1 {
+  position: absolute;
+  top: 181px;
+  left: 81px;
+  font-weight: 600;
+  display: inline-block;
+  width: 199px;
+  height: 29px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 298px;
+  left: 592px;
+  width: 280px;
+  height: 210px;
+  cursor: pointer;
+}
+.fruits1 {
+  position: absolute;
+  top: 181px;
+  left: 115px;
+  font-weight: 600;
+  display: inline-block;
+  width: 130px;
+  height: 33px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 298px;
+  left: 1022px;
+  width: 280px;
+  height: 214px;
+  cursor: pointer;
+}
+.group-child3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--text-clr);
+  width: 1440px;
+  height: 354px;
+}
+.track-your-order {
+  position: absolute;
+  top: 129px;
+  left: 138px;
+  font-weight: 600;
+  display: inline-block;
+  width: 740px;
+  height: 95px;
+}
+.back-arrow-icon {
+  position: absolute;
+  top: 104px;
+  left: 572px;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+.rectangle-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 354px;
+}
+.shipping-and-deliveryoutline {
+  position: absolute;
+  top: 104px;
+  left: 1057px;
+  width: 149px;
+  height: 120px;
+  overflow: hidden;
+}
+.group-parent {
+  position: absolute;
+  top: 670px;
+  left: 0px;
+  width: 1440px;
+  height: 354px;
+  cursor: pointer;
+  font-size: 48px;
+  color: var(--white);
+}
+.interfaceoutlineuser-circle-icon {
+  position: absolute;
+  top: 67px;
+  left: 51px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.orders-are-not {
+  position: absolute;
+  top: 575px;
+  left: 111px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1104px;
+  height: 53px;
+}
+.desktop-4 {
+  position: relative;
+  background-color: var(--white);
+  border: 1px solid var(--text-clr);
+  box-sizing: border-box;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-1-semi-size);
+  color: var(--text-clr);
+  font-family: var(--headline-3);
+}

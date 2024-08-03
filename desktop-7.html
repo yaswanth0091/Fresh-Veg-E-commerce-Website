@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-7.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-7">
+      <div class="my-cart">My Cart</div>
+      <div class="bill-details">Bill Details :</div>
+      <div class="items-in-cart-parent">
+        <div class="items-in-cart">Items In Cart :</div>
+        <div class="group-child"></div>
+        <div class="group-item"></div>
+        <img
+          class="fruit-1222488-2-icon"
+          alt=""
+          src="./public/fruit1222488-2@2x.png"
+        />
+
+        <img
+          class="fruit-1222488-3-icon"
+          alt=""
+          src="./public/fruit1222488-3@2x.png"
+        />
+
+        <div class="brocholi">Brocholi</div>
+        <div class="kiwi">Kiwi</div>
+        <div class="rs50-kg">
+          <span>Rs50/</span>
+          <span class="kg"> Kg</span>
+        </div>
+        <div class="rs70-kg">
+          <span>Rs.70/</span>
+          <span class="kg"> Kg</span>
+        </div>
+        <div class="group-inner"></div>
+        <div class="rectangle-div"></div>
+        <div class="parent">
+          <div class="div5">-</div>
+          <div class="div5">2</div>
+          <div class="div5">+</div>
+        </div>
+        <div class="group">
+          <div class="div5">-</div>
+          <div class="div5">1</div>
+          <div class="div5">+</div>
+        </div>
+      </div>
+      <div class="sub-total">Sub Total</div>
+      <div class="rs170">Rs170</div>
+      <div class="delivery-fee">Delivery Fee</div>
+      <div class="rs32">Rs32</div>
+      <div class="total">Total</div>
+      <div class="rs202">Rs202</div>
+      <img class="desktop-7-child" alt="" src="./public/line-1.svg" />
+
+      <div class="desktop-7-item" id="rectangle4"></div>
+      <div class="make-payment">Make Payment</div>
+      <div class="desktop-7-inner"></div>
+      <div class="keep-browsing" id="keepBrowsingText">Keep Browsing</div>
+    </div>
+
+    <script>
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          window.location.href = "./desktop-8.html";
+        });
+      }
+
+      var keepBrowsingText = document.getElementById("keepBrowsingText");
+      if (keepBrowsingText) {
+        keepBrowsingText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-10">
+      <div class="orders">Orders</div>
+      <div class="frame">
+        <div class="orders1">
+          <div class="content">
+            <div class="caption">
+              <div class="order-id">Order ID</div>
+              <div class="date">Date</div>
+              <div class="date">Status</div>
+              <div class="price">Price</div>
+            </div>
+            <div class="item">
+              <div class="order-id">#0004</div>
+              <div class="november-1-2023">November 1, 2023</div>
+              <div class="date">Shipped</div>
+              <div class="price">Rs202.00</div>
+            </div>
+            <div class="item">
+              <div class="order-id">#0003</div>
+              <div class="date">October 11, 2023</div>
+              <div class="date">Delivered</div>
+              <div class="price">Rs345.00</div>
+            </div>
+            <div class="item">
+              <div class="order-id">#0002</div>
+              <div class="date">August 24, 2023</div>
+              <div class="date">Delivered</div>
+              <div class="price">Rs2345.00</div>
+            </div>
+            <div class="item">
+              <div class="order-id">#0001</div>
+              <div class="date">August 12, 2023</div>
+              <div class="date">Delivered</div>
+              <div class="price">Rs845.00</div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-child"></div>
+        <div class="go-back" id="goBackText">Go Back</div>
+        <img class="image-6-icon" alt="" src="./public/image-6@2x.png" />
+      </div>
+    </div>
+
+    <script>
+      var goBackText = document.getElementById("goBackText");
+      if (goBackText) {
+        goBackText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+    </script>
+  </body>
+</html>

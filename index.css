@@ -1,0 +1,126 @@
+.orders {
+  position: absolute;
+  top: 167px;
+  left: calc(50% - 131px);
+  line-height: 32px;
+  font-weight: 500;
+}
+.order-id {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  width: 160px;
+  flex-shrink: 0;
+}
+.date {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  width: 120px;
+  flex-shrink: 0;
+}
+.price {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  width: 137px;
+  flex-shrink: 0;
+}
+.caption {
+  border-bottom: 1px solid var(--neutral-03-100);
+  box-sizing: border-box;
+  width: 707px;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px var(--padding-5xs);
+  align-items: center;
+  justify-content: space-between;
+  color: var(--neutral-04-100);
+}
+.november-1-2023 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  width: 132px;
+  height: 14px;
+  flex-shrink: 0;
+}
+.item {
+  border-bottom: 1px solid var(--neutral-03-100);
+  box-sizing: border-box;
+  width: 707px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+.content {
+  width: 962px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.orders1 {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 463px);
+  width: 887px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 72px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-child {
+  position: absolute;
+  top: 411px;
+  left: 788px;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-forestgreen-300);
+  border: 1px solid var(--text-clr);
+  box-sizing: border-box;
+  width: 138px;
+  height: 49px;
+}
+.go-back {
+  position: absolute;
+  top: 421px;
+  left: 818px;
+  font-size: var(--body-1-semi-size);
+  font-weight: 600;
+  font-family: var(--headline-3);
+  color: var(--white);
+  cursor: pointer;
+}
+.image-6-icon {
+  position: absolute;
+  top: 286px;
+  left: 21px;
+  width: 743px;
+  height: 405px;
+  object-fit: cover;
+}
+.frame {
+  position: absolute;
+  top: 357px;
+  left: 341px;
+  width: 926px;
+  height: 691px;
+  overflow: hidden;
+  font-size: var(--caption-1-size);
+  color: var(--neutral-07-100);
+}
+.desktop-10 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 80px;
+  color: var(--text-clr);
+  font-family: var(--caption-1);
+}

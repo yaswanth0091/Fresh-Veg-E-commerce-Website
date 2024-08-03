@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-9.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-9">
+      <div class="title">
+        <div class="my-account">My Account</div>
+      </div>
+      <div class="user-name">**user_name**</div>
+      <div class="log-out" id="logOutText">Log Out</div>
+      <div class="address">Address</div>
+      <div class="content1">
+        <div class="title1">
+          <div class="shipping-address">Shipping Address</div>
+          <div class="button">
+            <img
+              class="outlineedit-icon"
+              alt=""
+              src="./public/outlineedit.svg"
+            />
+
+            <div class="shipping-address">Edit</div>
+          </div>
+        </div>
+        <div class="prasanna-parent">
+          <div class="prasanna">Prasanna</div>
+          <div class="prasanna">9876543210</div>
+          <div class="prasanna">VIT University, Vellore Campus,Tamil Nadu</div>
+        </div>
+      </div>
+      <div class="content2">
+        <div class="add-address">
+          <p class="add-address1">Add Address</p>
+        </div>
+      </div>
+      <div class="desktop-9-child" id="rectangle"></div>
+      <div class="go-back1" id="goBackText">Go Back</div>
+      <img class="image-2-icon" alt="" src="./public/image-2@2x.png" />
+
+      <img class="image-3-icon" alt="" src="./public/image-3@2x.png" />
+
+      <img class="image-4-icon" alt="" src="./public/image-4@2x.png" />
+
+      <img class="image-5-icon" alt="" src="./public/image-5@2x.png" />
+
+      <div class="orders2" id="ordersText">Orders</div>
+    </div>
+
+    <script>
+      var logOutText = document.getElementById("logOutText");
+      if (logOutText) {
+        logOutText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-1.html";
+        });
+      }
+
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+
+      var goBackText = document.getElementById("goBackText");
+      if (goBackText) {
+        goBackText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+
+      var ordersText = document.getElementById("ordersText");
+      if (ordersText) {
+        ordersText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-10.html";
+        });
+      }
+    </script>
+  </body>
+</html>

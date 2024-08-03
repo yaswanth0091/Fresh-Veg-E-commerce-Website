@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-3">
+      <div class="login">Login</div>
+      <div class="dont-have-an-container">
+        <span>Don’t have an account?</span>
+        <span class="span"> </span>
+      </div>
+      <div class="email2">Email</div>
+      <div class="enter-your-email-wrapper">
+        <div class="enter-your-email">Enter Your Email</div>
+      </div>
+      <div class="password">Password</div>
+      <div class="enter-your-password-wrapper">
+        <div class="enter-your-email">Enter Your Password</div>
+      </div>
+      <div class="or">
+        <img class="or-child" alt="" src="./public/line-2.svg" />
+
+        <div class="or1">OR</div>
+        <div class="or-item"></div>
+      </div>
+      <img
+        class="istock000039803170medium-1-icon"
+        alt=""
+        src="./public/istock000039803170medium-1@2x.png"
+      />
+
+      <div class="sign-up" id="signUpText">Sign Up</div>
+      <div class="desktop-3-child"></div>
+      <div class="login1" id="loginText1">Login</div>
+      <div class="desktop-3-item" id="rectangle1"></div>
+      <div class="go-back4">Go Back</div>
+      <div class="desktop-3-inner" id="rectangle2"></div>
+      <div class="go-back5">Go Back</div>
+    </div>
+
+    <script>
+      var signUpText = document.getElementById("signUpText");
+      if (signUpText) {
+        signUpText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-2.html";
+        });
+      }
+
+      var loginText1 = document.getElementById("loginText1");
+      if (loginText1) {
+        loginText1.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          window.location.href = "./desktop-1.html";
+        });
+      }
+
+      var rectangle2 = document.getElementById("rectangle2");
+      if (rectangle2) {
+        rectangle2.addEventListener("click", function (e) {
+          window.location.href = "./desktop-1.html";
+        });
+      }
+    </script>
+  </body>
+</html>
